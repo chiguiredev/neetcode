@@ -1,5 +1,5 @@
 import { expect, test } from "bun:test";
-import { isAnagram } from ".";
+import { isAnagram } from "./reference";
 
 test("returns true when the two strings are anagrams", () => {
   const s = "anagram";
